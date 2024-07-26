@@ -40,7 +40,7 @@ const Component1 = () => {
         <ul>
           {sortedData.map(i=>{
             <li key={i.id}>
-              <span>{i.name}: {i.vote} votes</span>
+              <span>{i.name}: {i.vote}  votes</span>
               <button onClick={()=> increaseCnt(i.id)}>Vote increase</button>  
               <button onClick={()=> decreaseCnt(i.id)}>Vote decrease</button>  
             </li>
